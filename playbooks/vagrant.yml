@@ -1,0 +1,12 @@
+---
+- hosts: localhost
+  sudo: yes
+  vars_files:
+    - /vagrant/secrets.yml
+  roles:
+    - OULibraries.centos7
+    - OULibraries.mariadb
+    - OULibraries.apache2
+    - OULibraries.postfix-mta
+    - jsnshrmn.koha
+    - OULibraries.users

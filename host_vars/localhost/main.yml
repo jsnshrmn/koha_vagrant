@@ -1,0 +1,16 @@
+---
+koha_download_url: http://download.koha-community.org/old_releases
+koha_version: 3.16.00
+mariadb_port: 3306
+mariadb_host: localhost
+mariadb_db: koha
+mariadb_root_pass: root
+db_user: root
+db_pw: root
+kohaadmin_user: kohaadmin
+kohaadmin_pw: kohaadmin
+smtp_host: smtp.vagrant.localdomain
+smtp_port: 465
+smtp_authuser: user@example.com
+smtp_authpassword: mypass
+httpd_dn_suffix: vagrant.localdomain
