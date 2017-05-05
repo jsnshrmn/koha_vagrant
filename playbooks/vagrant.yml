@@ -1,8 +1,6 @@
 ---
 - hosts: localhost
   sudo: yes
-  vars_files:
-    - /vagrant/secrets.yml
   roles:
     - OULibraries.centos7
     - OULibraries.mariadb
