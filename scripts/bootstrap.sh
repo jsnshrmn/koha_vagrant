@@ -30,7 +30,7 @@ mkdir -pv /etc/ansible
 stat /vagrant/vault_password.txt &>/dev/null || bash -c '< /dev/urandom tr -dc "a-zA-Z0-9~!@#$%^&*_-" | head -c${1:-254};echo;' > /vagrant/vault_password.txt
 
 # copy hosts file provided by vagrant provisioner
-cp /vagrant/ansible.hosts /etc/ansible/hosts
+cp -r /vagrant/hosts /etc/ansible/
 cp /vagrant/ssh.cfg /home/vagrant/.ssh/config
 chown vagrant:vagrant /home/vagrant/.ssh/config
 chmod 600 /home/vagrant/.ssh/config
