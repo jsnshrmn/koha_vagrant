@@ -1,15 +1,15 @@
 ---
 
-- src: https://github.com/OULibraries/ansible-role-apache2
-  version: v2016-10-17.0
+- src: https://github.com/USAO/ansible-role-apache2
+  version: master
   name: OULibraries.apache2
 
 - src: https://github.com/OULibraries/ansible-role-centos7
   version: v2017-04-28.0
   name: OULibraries.centos7
 
-- src: https://github.com/OULibraries/ansible-role-mariadb
-  version: v2016-09-26.0
+- src: https://github.com/USAO/ansible-role-mariadb
+  version: master
   name: OULibraries.mariadb
 
 - src: https://github.com/OULibraries/ansible-role-postfix-mta
