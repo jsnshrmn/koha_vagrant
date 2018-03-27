@@ -3,8 +3,8 @@
   sudo: yes
   roles:
     - OULibraries.centos7
-    - OULibraries.mariadb
-    - OULibraries.apache2
+    - USAO.mariadb
+    - USAO.apache2
     - OULibraries.postfix-mta
     - jsnshrmn.koha
     - OULibraries.users
