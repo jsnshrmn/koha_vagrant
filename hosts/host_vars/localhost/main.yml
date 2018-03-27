@@ -1,6 +1,6 @@
 ---
 koha_download_url: http://download.koha-community.org/old_releases
-koha_version: 3.16.00
+koha_version: 3.22.08
 mariadb_port: 3306
 mariadb_host: localhost
 mariadb_db: koha
