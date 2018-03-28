@@ -2,9 +2,15 @@
 - hosts: localhost
   sudo: yes
   roles:
-    - OULibraries.centos7
-    - USAO.mariadb
-    - USAO.apache2
-    - OULibraries.postfix-mta
-    - jsnshrmn.koha
-    - OULibraries.users
+    - role: OULibraries.centos7
+      tags: centos7
+    - role: USAO.mariadb
+      tags: mariadb
+    - role: USAO.apache2
+      tags: apache2
+    - role: OULibraries.postfix-mta
+      tags: postfix-mta
+    - role: jsnshrmn.koha
+      tags: koha
+    - role: OULibraries.users
+      tags: users
